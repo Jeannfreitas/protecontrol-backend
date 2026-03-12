@@ -15,6 +15,12 @@ public class Pedido {
 
     private String paciente;
 
+    @Column
+    private String cor;
+
+    @Column
+    private String observacao;
+
     @ManyToOne
     @JoinColumn(name = "dentista_id")
     private Dentista dentista;
@@ -92,5 +98,21 @@ public class Pedido {
 
     public void setPago(Boolean pago) {
         this.pago = pago;
+    }
+
+    public String getCor() {
+        return cor;
+    }
+
+    public void setCor(String cor) {
+        this.cor = cor;
+    }
+
+    public String getObservacao() {
+        return observacao;
+    }
+
+    public void setObservacao(String observacao) {
+        this.observacao = observacao;
     }
 }
