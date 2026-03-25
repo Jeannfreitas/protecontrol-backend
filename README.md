@@ -1,6 +1,6 @@
 # 🦷 ProteControl
 
-Sistema de gestão de trabalhos de prótese dentária, desenvolvido para uso real em laboratório protético no Rio de Janeiro.
+Sistema de gestão de trabalhos de prótese dentária, desenvolvido para uso real em laboratório protético
 
 O projeto conta com **backend em Spring Boot**, **frontend web (PWA)** e **aplicativo desktop (Electron)** — permitindo o controle completo de pedidos, dentistas, tipos de trabalho e financeiro.
 
